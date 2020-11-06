@@ -1,5 +1,6 @@
 import json
 from web3 import Web3, HTTPProvider
+from web3.auto.gethdev import w3
 
 class Contract:
 	def __init__(self):

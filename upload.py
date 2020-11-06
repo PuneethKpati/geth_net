@@ -4,7 +4,7 @@ fileStorage = FileStorage()
 while True:
 	print('\n')
 	fileName = input("Uploading File's Name: ")
-	try:
-		info = fileStorage.upload(fileName)
-	except:
-		print('Not a Valid File!')
+	
+	info = fileStorage.upload(fileName)
+	
+	print('Not a Valid File!')
